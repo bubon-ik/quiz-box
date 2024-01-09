@@ -176,16 +176,21 @@ a {
 
 .week__img {
   margin-bottom: 33px;
+  width: 100%;
 }
 
 .week__text {
   margin-bottom: 24.5px;
   font-weight: 400;
+  font-size: 14px;
+}
+
+.week__options {
+  margin-bottom: 26.5px;
 }
 
 .week__options-item {
   display: inline-block;
-  margin-bottom: 26.5px;
   margin-right: 52px;
   vertical-align: middle;
 }
@@ -193,10 +198,6 @@ a {
 .week__options-text {
   font-size: 16px;
   font-weight: 400;
-}
-
-.week__text {
-  font-size: 14px;
 }
 
 .week__options-item:last-child {
@@ -236,7 +237,7 @@ position: relative;
 vertical-align: top;
 }
 
-.last_item:last-child {
+.last__item:last-child {
   margin-right: 0;
 }
 
@@ -270,6 +271,9 @@ vertical-align: top;
   font-weight: 400;
 }
 
+.last__img{
+  width: 100%;
+}
 .paginator__display, .paginator__list, .paginator__item {
   display: inline-block;
   vertical-align: middle;
@@ -365,10 +369,9 @@ vertical-align: top;
 }
 
 .social {
-  margin-top: 32px;
-  right: 242px;
+  top: 26px;
+  right: 253px;
   position: absolute;
-  margin-right: 20px;
 }
 
 .contacts__freecall {
@@ -456,7 +459,7 @@ vertical-align: top;
 
 .main-page-wrapper {
   background: url(./img/nbgB77C1HAg\ 1\ \(1\).png) center top no-repeat, url(./img/56278948-888x544\ 2.png) center bottom 155px no-repeat;
- /* mix-blend-mode: luminosity;
-  background-color: #17191C;*/
+  background-blend-mode: luminosity;
+  background-color: #17191C;
 }
 
