@@ -1,0 +1,70 @@
+.week {
+  margin-bottom: 125px
+}
+
+.week__title-text {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.week__title {
+  margin-bottom: 51px;
+}
+
+.week__item:last-child {
+  margin-right: 0;
+}
+
+.week__content {
+  padding: 0px 10px 0px 23px;
+}
+
+.week__list {
+  display: flex;
+}
+
+.week__item {
+  min-height: 450px;
+  background: #FFFFFF;
+  color: #303030; 
+  flex: 1;
+  border-radius: 7px;
+  margin-right: 27px;
+}
+
+.week__img {
+  margin-bottom: 33px;
+  width: 100%;
+}
+
+.week__text {
+  margin-bottom: 24.5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.week__options {
+  margin-bottom: 26.5px;
+}
+
+.week__options-item {
+  display: inline-block;
+  margin-right: 52px;
+  vertical-align: middle;
+}
+
+.week__options-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.week__options-item:last-child {
+  margin-right: 0;
+}
+
+.week__namebundle {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 23px;
+}

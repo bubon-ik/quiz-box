@@ -1,0 +1,10 @@
+.contact__text {
+  display: block;
+  font-size: 13px;
+
+}
+
+.contact__phone {
+  font-size: 26px;
+  margin-bottom: 2px;
+}

@@ -1,4 +1,6 @@
-
+.wrapper {
+  height: 2075px;
+}
 .top-line {
   min-height: 415px;
   background: #17191C;
@@ -15,6 +17,10 @@
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.container__header {
+  
 }
 
 .main-page {
@@ -52,8 +58,6 @@
   display: flex;
   align-items: center;
 }
-
-
 
 .page-content {
   background: #FFFFFF;

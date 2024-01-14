@@ -1,0 +1,43 @@
+.about {
+  margin-top: 145px;
+  display: flex;
+}
+
+.about::before {
+  content: "";
+  vertical-align: top;
+  width: 489px;
+  height: 505px;
+  background: url(./img/Mask\ Group1.png) center center / cover no-repeat;
+}
+
+.about__content {
+  background: linear-gradient(0deg,#8F00FF 100%, #148CFF 100% );
+  padding: 78px 82px;
+  vertical-align: top;
+  width: 785px;
+  height: 455px;
+  margin-left: -144px;
+  margin-top: 95px;
+  border-radius: 5px;
+  line-height: 27px;
+}
+
+.about__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+.about__text {
+  font-size: 16px;
+  margin-bottom: 43px;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}

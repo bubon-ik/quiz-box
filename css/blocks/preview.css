@@ -1,0 +1,16 @@
+.preview {
+  width: 640px;
+  margin-bottom: 193px
+}
+
+.preview__title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1; 
+  margin-bottom: 17px;
+}
+
+.preview__under-title {
+  font-size: 21px; 
+  margin-bottom: 75px;
+}

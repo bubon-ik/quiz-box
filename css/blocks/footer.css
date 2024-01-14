@@ -1,0 +1,19 @@
+.footer-container__content{
+  border-top: 1px solid #FFFFFF;
+  opacity: ;
+}
+
+.footer-container {
+  margin-top: 57px;
+}
+
+.footer .menu{left: 287px } 
+
+.footer .contact{top: 23px } 
+
+.footer {
+  position: relative;
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}

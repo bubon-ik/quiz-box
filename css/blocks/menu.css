@@ -1,0 +1,21 @@
+.menu {
+  margin-left: 75px;
+}
+
+.menu__menu {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 63px;
+}
+
+.menu__menu:last-child {
+  margin-right: 0;
+}
+
+.menu__menu:hover {
+  color: #8F00FF;
+}
+
+.menu__link {
+  font-size: 16px;
+}

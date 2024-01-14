@@ -1,0 +1,17 @@
+.button--border {
+  background: transparent;
+  border-color: #8F00FF;
+  color: #8F00FF;
+  height: 55px;
+  width: 135px;
+  font-size: 14px;
+}
+
+.button--border:hover {
+  color: #FFFFFF;
+}
+
+.button--another {
+  height: 55px;
+  width: 135px;
+}
