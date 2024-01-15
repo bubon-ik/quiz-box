@@ -13,7 +13,7 @@ body {
  li{
   list-style: none;
  }
- h1, h2, h3, p {
+ h2, h3, p {
   margin: 0;
   font-weight: normal;
  }
@@ -48,7 +48,7 @@ a {
 }
 
 .main-page-wrapper {
-  background: url(./img/nbgB77C1HAg\ 1\ \(1\).png) center top no-repeat, url(./img/56278948-888x544\ 2.png) center bottom 155px no-repeat;
+  background: url(../../img/nbgB77C1HAg\ 1\ \(1\).png) center top no-repeat, url(../../img/56278948-888x544\ 2.png) center bottom 155px no-repeat;
   background-blend-mode: luminosity;
   background-color: #17191C;
   height: 2930px;

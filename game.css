@@ -1,6 +1,4 @@
-.wrapper {
-  height: 2075px;
-}
+
 .top-line {
   min-height: 415px;
   background: #17191C;
@@ -19,8 +17,8 @@
   justify-content: space-between;
 }
 
-.container__header {
-  
+.header__second--page {
+  margin-bottom: -130px;
 }
 
 .main-page {
@@ -71,16 +69,21 @@
 
 .game {
   display: flex;
+  margin-bottom: 41px;
+  margin-left: 18px;
 }
 
 .games__img {
   width: 41%;
   margin-right: 7%;
-  margin-bottom: 108px;
 }
 
 .games__content {
   flex: 1;
+}
+
+.games__text {
+  line-height: 27px;
 }
 
 .games__title {
@@ -104,11 +107,12 @@
 .parnter-section {
   background: #FFFFFF;
   color: #1A1B1E;
-  padding: 80px 0;
+  
 }
 
 .partner-section--grey {
   background: #F4F5F5;
+  padding: 150px 0;
 }
 
 .partner-section__title {
@@ -138,4 +142,16 @@
 
 .partners__item:nth-child(4n + 1) {
   margin-left: 0;
+}
+
+.page__footer {
+  margin-top: auto;
+}
+
+.page-container__footer {
+  padding: 20px 0;
+}
+
+.footer__second--page {
+  margin-top: 15px;
 }
