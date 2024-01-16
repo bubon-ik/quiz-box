@@ -1,8 +1,12 @@
 
 
 .header .container {
-  margin-bottom: 153px;
+  margin-bottom: 132px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+}
+
+.header {
+  padding-top: 14px;
 }
