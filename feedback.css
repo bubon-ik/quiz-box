@@ -1,0 +1,178 @@
+.feedbacks {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 71px;
+}
+
+.feedbacks__item {
+  margin-bottom: 17px;
+}
+
+.feedback {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 28px;
+  background: #F4F5F5;
+}
+
+.feedback__header {
+  display: flex;
+  align-items: center;
+}
+
+.feedback__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2E77A4;
+  margin-bottom: 11px;
+}
+
+.feedback__user::after {
+  content: url(./img/vk-blue\ 1.png);
+  height: 28px;
+}
+
+.feedback__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  border-radius: 50px;
+  padding: 9px 21px;
+  background: #E7E7E7;
+}
+
+.tag--bg-green {
+  background: #B9EAE4;
+}
+
+.feedback__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.feedback__foto {
+  margin-right: 22px;
+}
+
+.feedback__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1A1B1E;
+  margin-bottom: 13px;
+}
+
+.feedback__content-text {
+  margin-bottom: 48px;
+  line-height: 27px;
+}
+
+.feedback__date {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1B1E;
+}
+
+.separator {
+  background: #17191C url(./img/19629\ 1.png) right 23% bottom no-repeat; 
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__content {
+  max-width: 40%;
+  background:  #17191C;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  padding: 30px 22px;
+  font-size: 18px;
+  color: #1A1B1E;
+}
+
+.form__input:last-child {
+  margin-right 0;
+}
+
+.form__input::placeholder {
+  color: #666666;
+}
+
+.form__input--textarea {
+  height: 232px;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.form__controls--title {
+  font-size: 18px;
+  color: #1A1B1E;
+  width: 40%;
+  margin-top: 13px;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-right: 17px;
+  margin-bottom: 9px;
+}
+
+.controls__element {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -98px;
+  padding-right: 25px;
+}
+
+.btn__color--dark {
+  background: #2B2B2B;
+  margin-right: 17px;
+}
+
+.btn__color--dark:hover {
+  background: #8E8E8E;
+}
