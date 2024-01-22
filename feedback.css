@@ -1,3 +1,8 @@
+.partner-section--grey {
+  background: #F4F5F5;
+  padding: 150px 0;
+}
+
 .feedbacks {
   column-count: 2;
   column-gap: 27px;
@@ -171,6 +176,7 @@
 .btn__color--dark {
   background: #2B2B2B;
   margin-right: 17px;
+  transition: background 0.3s ease;
 }
 
 .btn__color--dark:hover {

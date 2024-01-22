@@ -1,11 +1,12 @@
 .menu {
-  margin-left: 75px;
+  margin-left: 21px;
 }
 
 .menu__menu {
   display: inline-block;
   vertical-align: middle;
   margin-right: 63px;
+  transition: color 0.3s ease;
 }
 
 .menu__menu:last-child {

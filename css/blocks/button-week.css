@@ -5,6 +5,7 @@
   height: 55px;
   width: 135px;
   font-size: 14px;
+  transition: color 0.3s ease;
 }
 
 .button--border:hover {

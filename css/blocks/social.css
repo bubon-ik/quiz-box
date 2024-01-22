@@ -1,75 +1,55 @@
-.social__item {
-  display: inline-block;
-  text-decoration: none;
-  width: 36px;
-  height: 36px;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-
-.social__item:last-child {
-  margin-right: 0;
-}
-
 .social {
- margin-left: 75px;
-}
-
-.contacts__freecall {
-  font-size: 11px;
-  line-height: 20px;
-}
-
-.social__link {
-  width: 36px;
-  height: 36px;
-  display: inline-block;
-  text-decoration: none;
-}
-
-.social__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-
-.social__item:last-child {
-  margin-right: 0;
+  margin-right: -103px;
 }
 
 .social__list {
-  top: 53px;
-  right: 300px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social__item {
+  margin-bottom: 10px;
+}
+
+.social__link {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url('/img/sprites.png');
+  margin-right: 10px; /* Расстояние между иконками и текстом */
 }
 
 .social__item--icon-telegram .social__link {
-  background-image: url(../../img/t.png);
-}
-
-.social__item--icon-telegram .social__link:hover {
-  background-image: url(../../img/t\ hover.png);
+  background-position: -10px -122px; /* Иконка Telegram */
 }
 
 .social__item--icon-vk .social__link {
-  background-image: url(../../img/vk.png);
-}
-
-.social__item--icon-vk .social__link:hover {
-  background-image: url(../../img/vk\ hover.png);
+  background-position: -66px -10px; /* Иконка ВКонтакте */
 }
 
 .social__item--icon-fb .social__link {
-  background-image: url(../../img/facebook\ 1.png);
-}
-
-.social__item--icon-fb .social__link:hover {
-  background-image: url(../../img/fb\ hover.png);
+  background-position: -10px -66px; /* Иконка Facebook */
 }
 
 .social__item--icon-instagram .social__link {
-  background-image: url(../../img/in.png);
+  background-position: -122px -10px; /* Иконка Instagram */
 }
 
-.social__item--icon-instagram .social__link:hover {
-  background-image: url(../../img/in\ hover.png);
+
+.social__item--icon-telegram:hover .social__link {
+  background-position: -122px -66px;
 }
+
+.social__item--icon-vk:hover .social__link {
+  background-position: -66px -122px; /* Иконка ВКонтакте */
+}
+
+.social__item--icon-fb:hover .social__link {
+  background-position: -66px -66px; /* Иконка Facebook */
+}
+
+.social__item--icon-instagram:hover .social__link {
+  background-position: -10px -10px; /* Иконка Instagram */
+}
+

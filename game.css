@@ -108,15 +108,19 @@
   color: #FFFFFF;
 }
 
+.paginator--light {
+  padding-bottom: 91px;
+}
+
 .parnter-section {
   background: #FFFFFF;
   color: #1A1B1E;
   
 }
 
-.partner-section--grey {
+.partner-section--game {
   background: #F4F5F5;
-  padding: 150px 0;
+  padding: 90px 0;
 }
 
 .partner-section__title {
@@ -158,4 +162,9 @@
 
 .footer__second--page {
   margin-top: 15px;
+}
+
+.contacts__freecall {
+  font-size: 11px;
+  line-height: 15px;
 }
