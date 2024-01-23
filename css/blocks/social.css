@@ -16,7 +16,7 @@
   display: inline-block;
   width: 36px;
   height: 36px;
-  background: url('/img/sprites.png');
+  background: url('../../img/sprites.png');
   margin-right: 10px; /* Расстояние между иконками и текстом */
 }
 
