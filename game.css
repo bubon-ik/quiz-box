@@ -168,3 +168,7 @@
   font-size: 11px;
   line-height: 15px;
 }
+
+.menu__menu--active .menu__link {
+  color: #8F00FF;
+}
