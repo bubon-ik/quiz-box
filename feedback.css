@@ -120,11 +120,11 @@
   color: #1A1B1E;
 }
 
-.input.form__input:last-child {
-  margin-right 0;
+.form__input:last-child {
+  margin-right: 0;
 }
 
-.textarea.form__input.form__input--textarea {
+.form__input.form__input--textarea {
   margin-right: 0;
 }
 
